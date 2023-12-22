@@ -1,0 +1,26 @@
+table {
+ @apply min-w-full;
+ @apply text-sm;
+ @apply border;
+}
+
+td,
+th {
+ @apply px-2 py-2;
+}
+
+td {
+ @apply border-t;
+}
+
+th {
+ @apply text-left;
+}
+
+tr:nth-child(even) {
+ /* @apply bg-gray-200; */
+}
+
+tr:hover {
+ @apply bg-sky-100;
+}
